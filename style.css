@@ -8,7 +8,7 @@
 
 body{
    width: 100%;
-   /* background-color: #dcffea; */
+   background-color: #dcffea;
    background-image: linear-gradient(to right, #45C4B0, #9AEBA3);
    font-family: 'Roboto', sans-serif;
 }
@@ -16,17 +16,15 @@ body{
 section {
    background-color: #b4f8cf;
    text-align: center;
-   width: 300px;
+   width: 30%;
    margin: 60px auto;
    padding: 30px;
    border-radius: 6px;
    box-shadow: 15px 17px 20px 0px #363636;
 }
 
-
-
-img {
-   width: 100%;
+.perfil {
+   width: 40%;
    border-radius: 100%;
    border: #1fb993 4px solid;
    padding: 3.7px;
@@ -58,7 +56,6 @@ ul li a{
    margin-bottom: 16px;
    border-radius: 6px;
    align-items: center;
-   justify-content: center;
    background-color: #1fb38e;
    color: black;
    text-transform: uppercase;
@@ -71,7 +68,10 @@ ul li a:hover{
    background: #11795f;
 }
 
-/* 0d5e4a hoover */
+a img{
+   width: 30px;
+   margin: 30px;
+}
 
 footer{
    font-weight: 500;
