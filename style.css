@@ -9,7 +9,7 @@
 :root{
    --primary-color: #1fb993;
    --primary-color-hoover: #11795f;
-   --bg-color: #9AEBA3;
+   --bg-color: #d1fafa;
    --bg-gradient: linear-gradient(90deg, #1fb993 0%, #d1fafa 100%);
    --section-color: #9aebd7;
    --text-color: #002f25;
@@ -18,7 +18,7 @@
 .dark{
    --primary-color: #11795f;
    --primary-color-hoover: #1fb993;
-   --bg-color: #002f25;
+   --bg-color: #227569;
    --bg-gradient: linear-gradient(90deg, #002f25 0%, #45C4B0 100%);
    --section-color: #002f25;
    --text-color: #9aebd7;
@@ -48,7 +48,7 @@ button img{
 section {
    width: 30%;
    margin: 2vw auto;
-   padding: 30px;
+   padding: 2vw;
    border-radius: 6px;
    text-align: center;
    background-color: var(--section-color);
@@ -82,14 +82,16 @@ ul {
 
 ul li a{
    display: flex;
+   align-items: center;
+   justify-content: space-between;
    height: 53px;
    margin-bottom: 16px;
+   padding: 0 30%;
    border-radius: 6px;
-   align-items: center;
-   background-color: var(--primary-color);
    color: var(--text-color);
    text-transform: uppercase;
    font-size: 14px;
+   background-color: var(--primary-color);
    transition: background 400ms;
 }
 
@@ -99,8 +101,7 @@ ul li a:hover{
 }
 
 a img{
-   width: 30px;
-   margin: 0px 30px 0px 100px;
+   width: 25%;
 }
 
 footer{
@@ -112,4 +113,21 @@ footer{
 
 footer:hover{
    opacity: 1;
+}
+
+@media (max-width: 800px){
+   button{
+      width: 10%;
+      margin-top: 2vw;
+   }
+
+   section{
+      width: 100%;
+      margin: auto;
+      border-radius: 0%;
+   }
+
+   ul li a{
+      padding: 3% 35%;
+   }
 }
